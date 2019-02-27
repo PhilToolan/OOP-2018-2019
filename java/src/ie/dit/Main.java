@@ -28,7 +28,11 @@ public class Main
         processing.core.PApplet.runSketch( a, new Arrays());
 		
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 3ed093fac32ca5d7e43a8b381fe443420b0b5755
 	public void starMap()
 	{
 		String[] a = {"MAIN"};
