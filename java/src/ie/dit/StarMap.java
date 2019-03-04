@@ -20,7 +20,7 @@ public class StarMap extends PApplet
     public void setup()
     {
         loadData();
-        printStars();
+        //printStars();
         border = width * 0.05f;
     }
 
@@ -93,6 +93,16 @@ public class StarMap extends PApplet
 
         }
     } 
+
+    private float map1(float a, float b, float c, float d, float e)
+    {
+        float range1 = c - b;
+        float howfar = a - b;   //how far along into the range from b to c is a
+
+        float range2 = e - d;
+
+        return d + ((howfar/range1) * range2);
+    }
 
     public void mouseClicked()
     {
