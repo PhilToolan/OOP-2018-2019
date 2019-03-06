@@ -106,7 +106,7 @@ public class StarMap extends PApplet
 
     public void mouseClicked()
     {
-            
+        mouseX mouseYs
     }
 
     public void draw()
