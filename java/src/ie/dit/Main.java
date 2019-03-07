@@ -43,20 +43,9 @@ public class Main
 		
 	}
 
-	public void menu()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Menu());
-		
-	}
-
 	public static void main(String[] args)
 	{
 		Main main = new Main();
-<<<<<<< HEAD
-		main.menu();			
-=======
 		main.cafeRubis();			
->>>>>>> 564abae82e8d3f647640a971484e0adc3b32b6f0
 	}
 }
