@@ -36,9 +36,16 @@ public class Main
 		
 	}
 
+	public void menu()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Menu());
+		
+	}
+
 	public static void main(String[] args)
 	{
 		Main main = new Main();
-		main.starMap();			
+		main.menu();			
 	}
 }
