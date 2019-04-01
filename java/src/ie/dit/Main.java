@@ -1,5 +1,7 @@
 package ie.dit;
 
+import processing.core.PVector;
+
 public class Main
 {	
 
@@ -59,7 +61,27 @@ public class Main
 
 	public static void main(String[] args)
 	{
+
+		PVector a = new PVector(0, 5);
+		PVector b = new PVector(10, -2);
+		PVector c = new PVector();
+
+		// a += b;
+		a.add(b);
+		// c = a + b;
+		c = PVector.add(a, b);
+		// static method call, on the class not the instance
+		c.normalize();
+		c.mag(); 
+
+		
 		Main main = new Main();
+<<<<<<< HEAD
 		main.arrays();			
+=======
+		main.yasc();		
+		
+		
+>>>>>>> 51acfd7ae55f1ba358822aa7cc2102e3144503d0
 	}
 }
