@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-package ie.dit;
-
-import processing.core.PApplet;
-
-public class YASC extends PApplet
-{
-    Ship s;
-
-    public void settings()
-    {
-        size(800, 800);
-
-    }
-
-    public void setup()
-    {
-        s = new Ship(this, width / 2, height / 2, 5, 50);
-    }
-
-    public void draw()
-    {
-        background(255);
-        s.render();
-        s.update();
-    }
-
-
-=======
 package ie.dit;
 
 import processing.core.PApplet;
@@ -69,5 +40,4 @@ public class YASC extends PApplet
     }
 
 
->>>>>>> 76af277bf529f17c2d5302b15ecfee421804c177
 }

@@ -178,9 +178,9 @@ public class Arrays extends PApplet
     {
         background(0);
 
-        //drawLineGraph();;
-        drawPieChart();
-        //drawBarChart();
+        //drawLineGraph();
+        //drawPieChart();
+        drawBarChart();
 
         /*float gap = height / (float) rainFall.length;
         int m = (int) Math.floor(mouseY / gap);
