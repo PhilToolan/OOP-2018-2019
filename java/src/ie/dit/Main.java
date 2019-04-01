@@ -76,12 +76,8 @@ public class Main
 
 		
 		Main main = new Main();
-<<<<<<< HEAD
-		main.arrays();			
-=======
 		main.yasc();		
 		
 		
->>>>>>> 51acfd7ae55f1ba358822aa7cc2102e3144503d0
 	}
 }
