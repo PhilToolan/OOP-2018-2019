@@ -59,6 +59,7 @@ public class Main
 		
 	}
 
+<<<<<<< HEAD
 	public void audio2()
 	{
 		String[] a = {"MAIN"};
@@ -88,6 +89,27 @@ public class Main
 		//main.arrays();
 		//main.starMap();
 		main.audio2();
+=======
+	public void mandala()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Mandala());
 		
+	}
+	
+	public void audio2()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Audio2());
+>>>>>>> 42417c5b3ba6804dc3178d2d407d768a0bd983bb
+		
+	}
+
+	public static void main(String[] args)
+	{
+	
+		Main main = new Main();
+		main.audio2();		
+			
 	}
 }
