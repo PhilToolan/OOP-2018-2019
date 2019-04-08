@@ -59,6 +59,13 @@ public class Main
 		
 	}
 
+	public void audio2()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Audio2());
+		
+	}
+
 	public static void main(String[] args)
 	{
 		/*
@@ -79,7 +86,8 @@ public class Main
 		Main main = new Main();
 		//main.yasc();		
 		//main.arrays();
-		main.starMap();
+		//main.starMap();
+		main.audio2();
 		
 	}
 }
